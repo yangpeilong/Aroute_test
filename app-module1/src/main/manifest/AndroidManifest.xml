@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.qding.project.config.app_module1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:name=".Module1App"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="Module1"
+        android:roundIcon="@drawable/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Module1"
+        >
+        <activity android:name=".Module1SecondActivity"></activity>
+        <activity android:name=".Module1MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+
+        </activity>
+    </application>
+
+</manifest>

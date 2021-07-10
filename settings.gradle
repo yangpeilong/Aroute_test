@@ -1,0 +1,5 @@
+rootProject.name = "ARoute_Test"
+include ':app'
+include ':baseLibrary'
+include ':app-module1'
+include ':app-module2'
